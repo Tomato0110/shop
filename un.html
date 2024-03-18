@@ -1,0 +1,83 @@
+ainer {
+    text-align: center;
+    margin-bottom: 20px; /* テキストとの間隔を調整 */
+    margin-top: 20px; /* ページの上部との間隔を調整 */
+  }
+
+  .image-container {
+    display: flex;
+    flex-wrap: wrap; /* 画像が横に並ぶように設定 */
+    justify-content: center;
+    gap: 20px; /* 画像間の余白を設定 */
+  }
+
+  .image-container img {
+    width: auto; /* 画像の幅を自動調整 */
+    height: 200px; /* 画像の高さを指定 */
+    cursor: pointer; /* マウスカーソルをポインターに変更 */
+  }
+
+  .description {
+    border: 2px solid white; /* 枠線を白色に設定 */
+    padding: 10px; /* 枠線とテキストの間隔を調整 */
+    max-width: 300px; /* 最大幅を設定 */
+    text-align: center; /* テキストを中央揃えにする */
+    margin-top: 10px; /* 説明文と画像の間隔を設定 */
+  }
+
+  .purchase-button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 100%; /* ボタンの幅を調整 */
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Tomatoshop</h1>
+</div>
+
+<div class="image-container">
+  <div>
+    <img src="ogp.jpg" alt="Image 1">
+    <div class="description">
+      <p>画像1の説明</p>
+      <a href="https://example.com"><button class="purchase-button">購入</button></a>
+    </div>
+  </div>
+
+  <div>
+    <img src="ooo.jpg" alt="Image 2">
+    <div class="description">
+      <p>画像2の説明</p>
+      <a href="https://example.com"><button class="purchase-button">購入</button></a>
+    </div>
+  </div>
+
+  <div>
+    <img src="aaaaa.jpg" alt="Image 3">
+    <div class="description">
+      <p>画像3の説明</p>
+      <a href="https://example.com"><button class="purchase-button">購入</button></a>
+    </div>
+  </div>
+
+  <div>
+    <img src="qqq.jpg" alt="Image 4">
+    <div class="description">
+      <p>画像4の説明</p>
+      <a href="https://example.com"><button class="purchase-button">購入</button></a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
